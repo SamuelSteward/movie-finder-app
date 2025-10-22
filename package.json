@@ -1,9 +1,9 @@
 {
   "name": "first-react-app",
+  "homepage": "https://samuelsteward.github.io/movie-finder-app/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://samuelsteward.github.io/movie-finder-app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
