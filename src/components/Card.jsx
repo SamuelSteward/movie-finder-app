@@ -14,7 +14,7 @@ const Card = ({movie:
             <h4>{overview}</h4>
             <div className='content'>
                 <div className='rating'>
-                    <img src="/Rating.png" alt="" />
+                    <img src="/Rating.png" alt="Rating" />
                     <p>
                         {vote_average ? vote_average.toFixed(1) : 'N/A'}
                     </p>
