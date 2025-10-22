@@ -51,15 +51,6 @@ cd movie-finder-app
 npm install
 ```
 
-### **3. Create `.env.local`**
-
-Create a file `.env.local` in the root folder:
-
-```env
-VITE_TMDB_API_KEY=your_real_tmdb_api_key
-```
-
-> Get your API key from [TMDB](https://www.themoviedb.org/).
 
 ### **4. Run Locally**
 
@@ -67,9 +58,7 @@ VITE_TMDB_API_KEY=your_real_tmdb_api_key
 npm run dev
 ```
 
-Open your browser at [http://localhost:5173](http://localhost:5173)
-
----
+--- OR ---
 
 ## 🐳 Run with Docker
 
@@ -80,7 +69,6 @@ docker build -t movie-finder-app .
 docker run -p 8080:80 movie-finder-app
 ```
 
-Open your browser at [http://localhost:8080](http://localhost:8080)
 
 ### **Or using Docker Compose**
 
@@ -88,26 +76,8 @@ Open your browser at [http://localhost:8080](http://localhost:8080)
 docker-compose up --build
 ```
 
-- App will be available at [http://localhost:8080](http://localhost:8080)
 
----
-
-## 📂 Project Structure
-
-```
-first-react-app/
-├─ src/                # React source code
-├─ public/             # Public assets
-├─ Dockerfile          # Docker build file
-├─ docker-compose.yml  # Docker Compose configuration
-├─ .env.example        # Example environment variables
-├─ package.json
-└─ README.md
-```
-
----
-
-## 🌟 Why This Project Shows My Skills
+## 🌟 Project
 
 - End-to-end **React app development** with API integration.  
 - Implemented **modern React hooks** and **state management patterns**.  
