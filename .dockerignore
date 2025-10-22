@@ -1,0 +1,30 @@
+*.log
+
+# Node modules
+node_modules
+
+# Build output
+dist
+build
+
+# Local environment files
+.env
+.env.local
+
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git files
+.git
+.gitignore
+
+# Editor settings
+.vscode
+.idea
