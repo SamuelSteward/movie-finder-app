@@ -6,7 +6,7 @@ import { useDebounce } from 'react-use';
 
 const API_BASE_URL='https://api.themoviedb.org/3';
 
-const API_KEY=import.meta.env.VITE_TMDB_API_KEY;
+const API_KEY='eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0OGM1OTUzMDdjN2VjNDZiNzZkYTNlNDVhNTNlYjI3MiIsIm5iZiI6MTc2MTA0NTA2Ny40NTUwMDAyLCJzdWIiOiI2OGY3NmE0YjBjYjRjNDI4ZjRmNWM3MmEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.0kmaMZVrDosm1TXUaNX81VxWfuDPxZDRVPZSk9z96ns';
 
 const API_OPTIONS = {
   method : 'GET',
