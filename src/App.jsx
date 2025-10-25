@@ -42,7 +42,7 @@ const App = () => {
         throw new Error(`Failed to fetch movies`)
       }
       const data = await response.json();
-      console.log(data);
+      // console.log(data);
 
       if(data.Response === false){
         setErrorMessage(data.Error || 'failed to fetch movies')
